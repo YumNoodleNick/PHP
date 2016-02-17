@@ -20,3 +20,6 @@ handlers:
   
 - url: /busreis
   script: busreis.php
+  
+- url: /kerstboom
+  script: kerstboom.php
