@@ -21,7 +21,7 @@
         <li><a href="http://noodlenick-app.appspot.com/helloworld">Hello world</a></li>
         <li><a href="http://noodlenick-app.appspot.com/foutmelding">Foutmelding</a></li>
         <li><a href="http://noodlenick-app.appspot.com/busreis">Busreis</a></li>
-        <li><a href="">Kerstboom</a></li>
+        <li><a href="http://noodlenick-app.appspot.com/kerstboom">Kerstboom</a></li>
         <li><a href="">W > F</a></li>
         <li><a href="">Zwemmers</a></li>
     </ul>
