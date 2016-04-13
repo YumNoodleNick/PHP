@@ -9,17 +9,60 @@ handlers:
   static_files: favicon.ico
   upload: favicon\.ico
 
+# Serve images as static resources.
+- url: /(.+\.(gif|png|jpg))$
+  static_files: \1
+  upload: .+\.(gif|png|jpg)$
+  application_readable: true
+  
+# audio files
+- url: /(.*\.(mid|midi|mp3|wav))$
+  static_files: \1
+  upload: .*\.(mid|midi|mp3|wav)$
+  application_readable: true
+  
+# Serve php scripts.
+- url: /(.+\.php)$
+  script: \1
+  
 - url: /
   script: main.php
-
+  
 - url: /helloworld
-  script: helloworld.php
+  script: hello-world-php-website/helloworld.php
   
 - url: /foutmelding
-  script: foutmelding.php
+  script: foutmeldingen-en-busreis/foutmelding.php
   
 - url: /busreis
-  script: busreis.php
+  script: foutmeldingen-en-busreis/busreis.php
   
 - url: /kerstboom
-  script: kerstboom.php
+  script: kerstboom-en-van-for-naar-while-loop/kerstboom.php
+  
+- url: /vanwhilenaarforloop
+  script: kerstboom-en-van-for-naar-while-loop/vanwhilenaarforloop.php
+
+- url: /kapperszaak
+  script: kapperszaak-sanders-en-de-zwemclubs/kapperzaak-sanders/kapperszaak.php
+
+- url: /zwemclubs
+  script: kapperszaak-sanders-en-de-zwemclubs/de-zwemclubs/zwemclubs.php
+  
+- url: /functies
+  script: functies-en-includes/functies/functies.php
+  
+- url: /includes
+  script: functies-en-includes/includes/includes.php
+
+- url: /form
+  script: dynamische-website/voorbereiding-dynamische-website/form.php
+  
+- url: /resultaat
+  script: dynamische-website/voorbereiding-dynamische-website/resultaat.php
+  
+# - url: /
+#   script: 
+
+# - url: /
+#   script: 
