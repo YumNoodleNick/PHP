@@ -4,7 +4,7 @@
    $zwemmer["Plonsmderin"]=11;
    $zwemmer["Bommetje"]=23;
    
-   $afbeelding = '<img src = "zwem.png" style = "width: 50px; height: 50px;">';
+   $afbeelding = '<img src = "/zwem" style = "width: 50px; height: 50px;">';
 
     ?>
     

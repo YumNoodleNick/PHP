@@ -39,7 +39,7 @@
                 <li><a href="/kapperszaak">Kapperszaak Sanders</a></li>
                 <li><a href="/functies">Functies</a></li>
                 <li><a href="/includes">Includes</a></li>
-                <li><a href="/form">Voorbereiding dynamische website</a></li>
+                <li><a href="/dynamische-form">Voorbereiding dynamische website</a></li>
                 <li><a href="">---</a></li>
                 <li><a href="">---</a></li>
                 <li><a href="cd-winkel/cdwinkel.php">CD Winkel</a></li>

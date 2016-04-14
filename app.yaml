@@ -48,6 +48,9 @@ handlers:
 
 - url: /zwemclubs
   script: kapperszaak-sanders-en-de-zwemclubs/de-zwemclubs/zwemclubs.php
+
+- url: /zwem
+  script: kapperszaak-sanders-en-de-zwemclubs/de-zwemclubs/zwem.png
   
 - url: /functies
   script: functies-en-includes/functies/functies.php
@@ -55,7 +58,7 @@ handlers:
 - url: /includes
   script: functies-en-includes/includes/includes.php
 
-- url: /form
+- url: /dynamische-form
   script: dynamische-website/voorbereiding-dynamische-website/form.php
   
 - url: /resultaat
