@@ -50,7 +50,7 @@ if($_POST["knop"]){
         
         if($inlog == "" || $adres == "" || $email == "" || $wachtwoord == ""){?>        
     
-        <form action="dynamischewebsite.php" method="POST">
+        <form action="/dynamischewebsite" method="POST">
         <div class = "row">
             <div class = "col-md-1">Inlognaam</div>
             <div class = "col-md-2"><input type="text" name="inlognaam" value=""></div>

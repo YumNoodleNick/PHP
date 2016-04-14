@@ -64,8 +64,8 @@ handlers:
 - url: /resultaat
   script: dynamische-website/voorbereiding-dynamische-website/resultaat.php
   
-# - url: /
-#   script: 
+- url: /dynamischewebsite
+  script: dynamische-website/dynamische-website/dynamischewebsite.php 
 
 # - url: /
 #   script: 

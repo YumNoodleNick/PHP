@@ -40,9 +40,9 @@
                 <li><a href="/functies">Functies</a></li>
                 <li><a href="/includes">Includes</a></li>
                 <li><a href="/dynamische-form">Voorbereiding dynamische website</a></li>
-                <li><a href="">---</a></li>
-                <li><a href="">---</a></li>
-                <li><a href="cd-winkel/cdwinkel.php">CD Winkel</a></li>
+                <li><a href="/dynamischewebsite">Dynamische website</a></li>
+                <li><a href="/dynamische-website/beasties/aoa.php">Beasties</a></li>
+                <li><a href="/cd-winkel/cdwinkel.php">CD Winkel</a></li>
             </ul>
         </li>
     </ul>
